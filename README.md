@@ -14,5 +14,5 @@ A minimal Jetpack Compose sample that shows how to overlay a notification badge 
 - The badge is another composable placed **inside the same `Box`** with:
   ```kotlin
   if (showBadge) {
-      Badge(modifier = Modifier.align(Alignment.BottomEnd)) { Text("9+") }
+      Badge(modifier = Modifier.align(Alignment.BottomEnd)) { Text("🐕+") }
   }
